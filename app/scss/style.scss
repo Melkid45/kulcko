@@ -1,0 +1,61 @@
+@import './reset';
+html{
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: 'Cygre-Regular';
+    src: url('../fonts/Cygre-Regular.woff2') format('woff2'),
+         url('../fonts/Cygre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cygre-Medium';
+    src: url('../fonts/Cygre-Medium.woff2') format('woff2'),
+         url('../fonts/Cygre-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Cygre-Bold';
+    src: url('../fonts/Cygre-Bold.woff2') format('woff2'),
+         url('../fonts/Cygre-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+:root{
+    --white: #FFFFFF;
+    --black: #111111;
+    --blue: #18AEEE;
+    --dark-so: #11111199;
+    --grey: #F4F4F4;
+    --regular: 'Cygre-Regular', sans-serif;
+    --medium: 'Cygre-Medium', sans-serif;
+    --bold: 'Cygre-Bold', sans-serif;
+    --white-header: #F6F6F6;
+    --border: #C7C7C7;
+}
+body{
+    max-width: 1920px;
+    background: var(--grey);
+    margin: 0 auto;
+    position: relative;
+    font-family: var(--regular);
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1760px;
+}
+
+.desk{
+    display: flex !important;
+}
+.mob{
+    display: none !important;
+}
+.hidden{
+    overflow: hidden;
+}

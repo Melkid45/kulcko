@@ -1,0 +1,121 @@
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    padding: 64px 0px;
+
+    &__body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 84px;
+
+        .main_element {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            img {
+                width: 262.8px;
+                height: 61px;
+            }
+
+            p {
+                margin-top: 14px;
+                font-family: var(--bold);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25.6px;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color: var(--blue);
+                max-width: 291px;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 12px;
+                leading-trim: NONE;
+                line-height: 16px;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color: var(--dark-so);
+            }
+        }
+
+        .menu_element {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            span {
+                font-family: var(--bold);
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 35.2px;
+                letter-spacing: 0%;
+                vertical-align: middle;
+                color: var(--blue);
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 11px;
+
+                li {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25.6px;
+                    letter-spacing: 0%;
+                    vertical-align: middle;
+                    color: var(--black);
+                }
+            }
+        }
+
+        .action_element {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .number {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+
+                span {
+                    font-weight: 400;
+                    font-size: 14px;
+                    leading-trim: NONE;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    color: var(--dark-so);
+                }
+
+                a {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: start;
+                    color: var(--black);
+                }
+            }
+
+            button {
+                width: 204px;
+                height: 56px;
+                background: var(--blue);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0%;
+                color: var(--white);
+            }
+        }
+    }
+}
